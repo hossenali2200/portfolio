@@ -2,6 +2,7 @@ import { div } from 'framer-motion/client'
 import React from 'react'
 import { Link } from 'react-router-dom'
  
+ 
 const data = [
   {
     icon:"https://cdn-icons-png.freepik.com/256/2504/2504923.png?ga=GA1.1.185833153.1715408241&semt=ais_hybrid ",
@@ -25,7 +26,7 @@ const Navbar = () => {
   return (
      <nav className='  mb-20 flex items-center justify-between py-6'>
         <div className='flex flex-shrink-0 items-center'>
-           <Link to='/'><h2 className='font-extrabold text-5xl text-purple-700'>Hossen</h2></Link> 
+           <Link to='/'><h2 className='font-extrabold text-5xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent'>Hossen</h2></Link> 
         </div>
         <div>
           <a href="/contact" className=' border-none bg-purple-600 text-white px-6 py-4 rounded-xl'>Hire Me</a>
