@@ -10,7 +10,7 @@ const data = [
   },
   {
     icon:"https://cdn-icons-png.freepik.com/256/5968/5968764.png?ga=GA1.1.185833153.1715408241&semt=ais_hybrid ",
-    link:"https://bd.linkedin.com/"
+    link:"https://www.facebook.com/dmhossenali/"
   },
   {
     icon:"https://cdn-icons-png.freepik.com/256/3291/3291667.png?ga=GA1.1.185833153.1715408241&semt=ais_hybrid ",
@@ -18,7 +18,7 @@ const data = [
   },
   {
     icon:" https://cdn-icons-png.freepik.com/256/3256/3256013.png?ga=GA1.1.185833153.1715408241&semt=ais_hybrid",
-    link:"https://bd.linkedin.com/"
+    link:"https://x.com/"
   }
 ]
 

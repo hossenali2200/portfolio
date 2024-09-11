@@ -4,9 +4,10 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   return (
     <motion.div
+    id='work'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full grid grid-cols-1 lg:grid-cols-2 text-gray-300  rounded-xl mt-3 lg:flex-row gap-10 lg:gap-20"
+      className="w-full grid grid-cols-1 lg:grid-cols-2 text-gray-300 border-b border-neutral-800 pb-24  rounded-xl mt-3 lg:flex-row gap-10 lg:gap-20"
     >
       
 

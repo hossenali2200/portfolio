@@ -4,6 +4,9 @@ import Technologies from '../components/Technologies'
 import About from '../components/About'
 import Skills from '../components/Skills'
  
+import Education from '../components/Education'
+import RecentWork from '../components/RecentWork'
+ 
 
 
 const Home = () => {
@@ -13,6 +16,8 @@ const Home = () => {
       <About />
      <Technologies/>
      <Skills/>
+     <Education/>
+     <RecentWork/>
     </div>
   )
 }

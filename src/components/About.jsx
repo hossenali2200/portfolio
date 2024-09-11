@@ -6,7 +6,7 @@ const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a p
 
 const About = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4'> 
+    <div id='main' className='border-b border-neutral-900 pb-4'> 
         <motion.h1 
          whileInView={{ opacity: 1, y: 0}}
          initial={{opacity: 0, y: -100}}
