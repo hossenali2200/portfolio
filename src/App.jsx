@@ -8,6 +8,7 @@ import Contact  from './pages/Contact'
 import ProjectsPage from './pages/ProjectsPage'
 import BlogsPage from './pages/BlogsPage'
 import Sidenav from './components/Sidenav'
+import ScrollToTopButton from './ScrollToTopButton'
  
  const App = () => {
    return (
@@ -17,6 +18,7 @@ import Sidenav from './components/Sidenav'
 
           </div>
           <div className='container mx-auto px-8'>
+          <ScrollToTopButton />
           <Navbar/>
               <Sidenav/>
             <Routes>

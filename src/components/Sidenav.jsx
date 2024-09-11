@@ -13,19 +13,19 @@ const Sidenav = () => {
 
            <div className=' fixed right-0 top-[25%] z-10'>
                <div className='flex flex-col'>
-                   <a href="/" className='rounded-full shadow-lg bg-purple-600  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <a href="/" className='rounded-full shadow-lg bg-purple-600 hover:bg-white hover:text-purple-600 font-bold  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                        <AiOutlineHome size={20}/>
                    </a>
-                   <a href="#work" className='rounded-full shadow-lg bg-purple-600  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <a href="#work" className='rounded-full shadow-lg bg-purple-600 hover:bg-white hover:text-purple-600 font-bold  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                        <GrProjects size={20}/>
                    </a>
-                   <a href="#projects" className='rounded-full shadow-lg bg-purple-600  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <a href="#projects" className='rounded-full shadow-lg bg-purple-600 hover:bg-white hover:text-purple-600 font-bold  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                        <AiOutlineProject size={20}/>
                    </a>
-                   <a href="#main" className='rounded-full shadow-lg bg-purple-600  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <a href="#main" className='rounded-full shadow-lg bg-purple-600 hover:bg-white hover:text-purple-600 font-bold  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                        <BsPerson size={20}/>
                    </a>
-                   <a href="/contact" className='rounded-full shadow-lg bg-purple-600  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                   <a href="/contact" className='rounded-full shadow-lg bg-purple-600 hover:bg-white hover:text-purple-600 font-bold  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                        <AiOutlineMail size={20}/>
                    </a>
                </div>

@@ -29,12 +29,12 @@ const Navbar = () => {
            <Link to='/'><h2 className='font-extrabold text-5xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent'>Hossen</h2></Link> 
         </div>
         <div>
-          <a href="/contact" className=' border-none bg-purple-600 text-white px-6 py-4 rounded-xl'>Hire Me</a>
+          <a href="/contact" className=' border-none bg-purple-600 text-white text-2xl font-bold px-6 py-4 rounded-xl cursor-pointer hover:bg-slate-200 hover:text-indigo-700'>Hire Me</a>
         </div>
         <div className='  lg:flex items-center justify-center gap-4 hidden text-2xl'>
             {data.map((nav,index)=>(
               <div key={index}>
-                  <a href={nav.link} target='_blank'><img className='w-[40px]' src={nav.icon} alt="" /></a>
+                  <a href={nav.link} target='_blank'><img className='w-[40px] cursor-pointer hover:scale-110 ease-in duration-300' src={nav.icon} alt="" /></a>
               </div>
             ))}
         </div>
